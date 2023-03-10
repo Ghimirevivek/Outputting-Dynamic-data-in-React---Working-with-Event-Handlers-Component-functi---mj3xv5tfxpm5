@@ -5,7 +5,7 @@ const App = () => {
   const [value, setValue] = useState('')
   const changeText = () => {
     const para = document.querySelector('#text')
-    para.innerText = `Hello my name is ${value} and I study at Newton School`
+    para.innerText = ` Hello my name is ${value} and I study at Newton School`
   }
   return (
     <div id="main">
